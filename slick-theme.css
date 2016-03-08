@@ -36,9 +36,16 @@
 
     color: transparent;
     border: none;
-    outline: none;
-    background: #e61052;
+    outline: none;    
     border-radius: 10px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e54776+6,e61052+36,e61052+60 */
+background: #e54776; /* Old browsers */
+background: -moz-linear-gradient(top,  #e54776 6%, #e61052 36%, #e61052 60%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e54776 6%,#e61052 36%,#e61052 60%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e54776 6%,#e61052 36%,#e61052 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e54776', endColorstr='#e61052',GradientType=0 ); /* IE6-9 */
+
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -80,7 +87,7 @@
 {
     /*left: -25px;*/
     /*left: -48px;*/
-    left: -10%;
+    left: -12%;
 }
 [dir='rtl'] .slick-prev
 {
@@ -99,7 +106,7 @@
 .slick-next
 {
     /*right: -25px;*/
-    right: -10%;
+    right: -12%;
 }
 [dir='rtl'] .slick-next
 {
@@ -118,7 +125,7 @@
 /* Dots */
 .slick-slider
 {
-    margin: 20px 10px;
+    margin: 20px 24px;
 }
 
 .slick-dots
