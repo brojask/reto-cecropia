@@ -1,0 +1,258 @@
+/***
+@red: #e61052
+titles, widgets
+**/
+
+body {
+  padding-top: 20px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#daccb8+0,daccb8+0,daccb8+0,daccb8+0,daccb8+0,daccb8+0,daccb8+0,daccb8+0,daccb8+0,daccb8+0,eae2d7+20,eae2d7+100 */
+background: #daccb8; /* Old browsers */
+background: -moz-linear-gradient(top,  #daccb8 0%, #daccb8 0%, #daccb8 0%, #daccb8 0%, #daccb8 0%, #daccb8 0%, #daccb8 0%, #daccb8 0%, #daccb8 0%, #daccb8 0%, #eae2d7 20%, #eae2d7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #daccb8 0%,#daccb8 0%,#daccb8 0%,#daccb8 0%,#daccb8 0%,#daccb8 0%,#daccb8 0%,#daccb8 0%,#daccb8 0%,#daccb8 0%,#eae2d7 20%,#eae2d7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #daccb8 0%,#daccb8 0%,#daccb8 0%,#daccb8 0%,#daccb8 0%,#daccb8 0%,#daccb8 0%,#daccb8 0%,#daccb8 0%,#daccb8 0%,#eae2d7 20%,#eae2d7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#daccb8', endColorstr='#eae2d7',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+@media (min-width: 1200px){
+ .container {
+    width: 960px;
+  }
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  color: #77644b;
+  
+}
+.footer a{
+  color: #77644b;
+}
+
+.bg-footer{
+  background-color: #c9bba9;
+}
+
+/* Main marketing message and sign up button */
+.container .jumbotron, .container-fluid .jumbotron {
+  padding-left: 20px;
+}
+
+.jumbotron,#logo {
+  /*text-align: center;*/
+  background-color: transparent;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+
+
+.jumbotron h1, #logo .title {
+  color: #e61052;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.jumbotron h2, #logo .slogan{
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#logo {
+  line-height: 1.5;
+  margin-left:20px;
+}
+
+#logo .title {
+  font-size: 40px;
+  line-height: 0.6;
+}
+h4.slogan {
+  font-size: 10px;
+  line-height: 0.6; 
+}
+
+/* Customize the nav-justified links to be fill the entire space of the .navbar */
+
+.nav-justified {
+  /*background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;*/
+}
+.nav-justified > li > a {
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  background-color: #e61052; /* Old browsers */
+  border-bottom: 1px solid #d5d5d5;
+  font-size: 12px;
+
+/*Vertical*/
+background-image: linear-gradient(grey 33%, rgba(255,255,255,0) 0%);
+background-position: right;
+background-size: 1px 3px;
+background-repeat: repeat-y;
+}
+.nav-justified > .active > a,
+.nav-justified > .active > a:hover,
+.nav-justified > .active > a:focus,
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: #2a1f0f;
+}
+.nav-justified > li:first-child > a {
+  border-radius: 10px 10px 0 0;
+}
+.nav-justified > li:last-child > a {
+  border-bottom: 0;
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+@media (min-width: 768px) {
+  .nav-justified {
+    max-height: 55px;
+  }
+  .nav-justified > li > a {
+    /*border-right: 1px solid #d5d5d5;
+    border-left: 1px solid #fff;*/
+  }
+  .nav-justified > li:first-child > a {
+    border-left: 0;
+    border-radius: 10px 0 0 10px;
+  }
+  .nav-justified > li:last-child > a {
+    border-right: 0;
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .masthead{
+    margin-top:40px;
+  }
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/**! Sidebar  and widgets **/
+#sidebar {
+  margin-top: 40px;
+}
+#sidebar .widget {
+  border-radius: 10px;
+    background-color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  
+}
+#sidebar .widget-header {
+    /*Horizontal*/
+  background-image: linear-gradient(to right, grey 33%, rgba(255,255,255,0) 0%);
+  background-position: bottom;
+  background-size: 4px 1px;
+  background-repeat: repeat-x;
+}
+#sidebar .widget h3{
+  margin-top: 10px;
+  font-size: 14px;
+  text-transform: uppercase;  
+  margin-left: 20px;
+  color: #e61052;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+#sidebar .widget ul.custom-bullets li:before {
+    font-family: 'FontAwesome';
+    content: '\f067';
+    margin:0 5px 0 -15px;
+    color: #f00;
+}
+
+#sidebar .widget .fa-ul{
+  margin-left: 50px;
+}
+
+.list-unstyled {
+  margin-left: 26px;
+}
+
+#sidebar .widget ul, #sidebar .widget ul a {
+  color: #97866f;
+}
+
+.text-danger{
+  color: #e61052;
+  font-weight: 600;
+}
+
+.jumbotron p {
+  font-size: 14px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.jumbotron p.text-danger {
+  font-weight: 600;
+
+}
+
+.search-form input, .search-form .btn-search {
+  border-radius: 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+.search-form .btn-search { 
+background-color: #e61052;
+color: #fff;
+padding: 4px 12px;
+font-size: 12px;
+text-transform: uppercase;
+text-shadow: 0px -1px 0px rgba(100, 100, 100, 1);
+  }
+
+  .form-control {
+    height: 28px;
+  }
+
+  .vcenter {
+    display: flex;
+    align-items: center;
+}
+
+
+.bg-success {
+  background-color: #c9bba9;
+}
+
+
+
+.nav-pills li {
+  background-image: linear-gradient(grey 33%, rgba(255,255,255,0) 0%);
+  background-position: right;
+  background-size: 1px 3px;
+  background-repeat: repeat-y;
+}
+
+
+
+
+.nav-pills>li>a, .nav-pills>li>a:focus, .nav-pills>li>a:hover {
+  background-color: transparent;
+}
