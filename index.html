@@ -6,8 +6,8 @@
             Reto Cecrotopia
         </title>
         <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'/>
-        <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
         <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
         <link rel="stylesheet" href="./slick-theme.css"/>
@@ -19,7 +19,7 @@
                 The justified navigation menu is meant for single line per list item.
                 Multiple lines will require custom code not provided by Bootstrap.
             -->
-            <div class="row vcenter" id="logo">
+            <div class="row vcenter" id="header">
                 <div class="col-md-4">
                     <h3 class="title">
                         X-PLOSION
@@ -83,17 +83,20 @@
                     <!-- Jumbotron -->
                     <div class="jumbotron">
                         <div class="row">
-                            <div class="col-md-8">
-                                <h1>
+                            <div class="col-md-8">                            
+                                <div class="jumbo-titles">
+                                    <h1>
                                     X-PLOSION
-                                </h1>
-                                <h2>
-                                    SODA FOR SUPERHEROES!
-                                </h2>
+                                    </h1>
+                                    <h2>
+                                        SODA FOR SUPERHEROES!
+                                    </h2>
+                                </div>
                                 <p class="text-danger">
                                     Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
                                 </p>
-                                <p>
+                                <p class="text-success">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nemo aperiam dolorem tempore dolores asperiores culpa labore et harum illum dolore explicabo, voluptate delectus voluptatem deserunt perferendis officia. Soluta, possimus!
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nemo aperiam dolorem tempore dolores asperiores culpa labore et harum illum dolore explicabo, voluptate delectus voluptatem deserunt perferendis officia. Soluta, possimus!
                                 </p>
                             </div>
@@ -131,14 +134,15 @@
                         </div>
                         <div class="social-profiles">
                             <a href="#">
-                            <img src="./img/Facebook_24x24.png" alt=""> Facebook
+                                <img src="./img/Facebook_24x24.png" alt=""/>
+                                Facebook
                             </a>
                             <a href="#">
-                                <img src="./img/Twitter_24x24.png" alt="">
+                                <img src="./img/Twitter_24x24.png" alt=""/>
                                 Twitter
                             </a>
                             <a href="#">
-                                <img src="./img/Google_24x24.png" alt="">
+                                <img src="./img/Google_24x24.png" alt=""/>
                                 Google+
                             </a>
                         </div>
@@ -153,7 +157,7 @@
                             <li>
                                 <i class="fa-li fa fa fa-sign-out">
                                 </i>
-                                X-Plosion	is a hit Japan
+                                X-Plosion   is a hit Japan
                             </li>
                             <li>
                                 <i class="fa-li fa fa fa-sign-out">
@@ -210,24 +214,42 @@
                     </div>
                 </div>
             </div>
-            <!-- Site footer -->            
+            <!-- Site footer -->
         </div>
         <!-- /container -->
         <div class="container-fluid bg-footer">
-        <div class="container">
-        	<footer class="footer row vcenter">
-                <p>                    
-                    <div class="col-md-6">&copy; Copyright 2011 X-Plosion Ltd.</div>
-                    <div class="col-md-6">
-                    	<ul class="nav nav-pills pull-right">
-						  <li role="presentation"><a href="#">FAQ</a></li>
-						  <li role="presentation"><a href="#">Terms</a></li>
-						  <li role="presentation"><a href="#">Privacy policy</a></li>
-                          <li role="presentation"><a href="#">Contact Us</a></li>                          
-						</ul>
-                    </div>
-                </p>
-            </footer>
+            <div class="container">
+                <footer class="footer row vcenter">
+                    <p>
+                        <div class="col-md-6">
+                            &copy; Copyright 2011 X-Plosion Ltd.
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="nav nav-pills pull-right">
+                                <li role="presentation">
+                                    <a href="#">
+                                        FAQ
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#">
+                                        Terms
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#">
+                                        Privacy policy
+                                    </a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#">
+                                        Contact Us
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </p>
+                </footer>
             </div>
         </div>
         <script src="./bower_components/jquery/dist/jquery.min.js">
